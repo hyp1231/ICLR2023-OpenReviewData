@@ -64,7 +64,7 @@ The average reviewer ratings and the frequency of keywords indicate that to maxi
 
 **All ICLR 2023 Submissions**
 
-Number of submissions: 3335 (Collected at 04/11/2022 09:11 AM UTC+8).
+Number of submissions: 3335 (Collected at 11/04/2022 21:19 PM UTC+8).
 
 |   Rank |   AvgRating | Title                                                                                                                                                                                                                           | Ratings                   | Decision   |
 |-------:|------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------|:-----------|
