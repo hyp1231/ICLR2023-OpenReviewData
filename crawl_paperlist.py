@@ -18,7 +18,7 @@ o.add_argument('--no-sandbox')
 o.add_argument('--remote-debugging-port=9222')
 driver = webdriver.Chrome(service=s, options=o)
 
-driver.get('https://openreview.net/group?id=ICLR.cc/2022/Conference')
+driver.get('https://openreview.net/group?id=ICLR.cc/2023/Conference')
 
 cond = EC.presence_of_element_located((By.XPATH, '//*[@id="all-submissions"]/nav/ul/li[13]/a'))
 WebDriverWait(driver, 60).until(cond)
@@ -26,7 +26,7 @@ WebDriverWait(driver, 60).until(cond)
 with open('paperlist.tsv', 'w', encoding='utf8') as f:
     f.write('\t'.join(['paper_id', 'title', 'link', 'keywords', 'abstract'])+'\n')
 
-for page in tqdm(range(1, 68)):
+for page in tqdm(range(1, 99)):
     text = ''
     elems = driver.find_elements_by_xpath('//*[@id="all-submissions"]/ul/li')
     for i, elem in enumerate(elems):
